@@ -22,6 +22,50 @@
   color: #61dafb;
 }
 
+.slider{
+  width: 90%;
+  height: 500px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px grey;
+  margin: 20px auto;
+
+}
+
+.slide-images{
+  width: 28%;
+  height: 28%;
+  
+}
+
+.image{
+  background-image: url('./components/house.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+.image-overlay{
+position: absolute;
+background-color: rgba(0,0,0,0);
+top: 0;
+bottom: 0;
+height: 100%;
+width: 100%;
+z-index: -5;
+}
+
+ul{
+  list-style-type: none;  
+}
+
+.firstNav{
+  background-color: #6495ed;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
